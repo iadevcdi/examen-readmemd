@@ -77,6 +77,8 @@ echo "Base de données : localhost"
 echo "Utilisateur : glpiuser"
 echo "Mot de passe : password"
 
+
+
 # Instructions pour la finalisation de l'installation
 echo "Finalisation :"
 echo "Une fois l'installation terminée, connectez-vous avec les identifiants par défaut (glpi/glpi pour l'administrateur)"
@@ -95,7 +97,18 @@ chmod +x install_glpi.sh
 ./install_glpi.sh
 ```
 
-## Installation via l'interface web
+## 3. Réponses aux configurations demandées lors de l'exécution de ./install_glpi.sh
+ ```bash
+Enter current password for root : password
+Switch to unix_socket authentication [Y/n] Y
+Change the root password? [Y/n] n
+Remove anonymous users? [Y/n] n
+Disallow root login remotely? [Y/n] n
+Remove test database and access to it? [Y/n] n
+Reload privilege tables now? [Y/n] Y
+ ```
+
+## 4. Installation via l'interface web
 
 1. Ouvrez un navigateur et accédez à [http://127.0.0.1/glpi](http://127.0.0.1/glpi)
 2. Suivez l'assistant d'installation en sélectionnant la langue, acceptant la licence, et en fournissant les informations de la base de données :
@@ -103,7 +116,7 @@ chmod +x install_glpi.sh
    - Utilisateur : glpiuser
    - Mot de passe : password
 
-## Finalisation
+## 5. Finalisation
 
 1. Une fois l'installation terminée, connectez-vous avec les identifiants par défaut (glpi/glpi pour l'administrateur)
 2. Changez immédiatement les mots de passe par défaut
