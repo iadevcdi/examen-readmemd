@@ -17,7 +17,7 @@ Enregistrez le script suivant dans un fichier, par exemple `install_glpi.sh` :
 ```bash
 nano install_glpi.sh
 ```
-### 2. Copier/coller le contenu de ce script
+### 2. Copier/coller le contenu de ce script, et ensuite faite CTL + X , tapez Y
 
 ```bash
 #!/bin/bash
