@@ -82,5 +82,33 @@ su claude -c 'bash /home/shared_data/dossier1/script1.sh'
 su danielle -c 'echo "Danielle" >> /home/shared_data/file1.txt'
 ```
 
-### **Conclusion**
-Ce guide complet fournit toutes les étapes, de la configuration à la vérification, pour assurer que les permissions et les accès sont correctement attribués et fonctionnels.
+### **Questions de Réflexion **
+
+### **Objectif**: 
+- Mieux comprendre la gestion des permissions dans Linux et l'impact de ces configurations sur la sécurité globale du système.
+
+
+1. **Expliquez l'importance des permissions dans un système Linux. Comment les permissions incorrectes peuvent-elles affecter la sécurité d'un système ?**
+   - Cette question vise à vous amener à réfléchir sur les implications de la sécurité et la gestion des accès dans un environnement Linux.
+
+2. **Quelles différences y a-t-il entre les permissions de lecture, écriture et exécution ? Pourquoi est-il crucial de configurer correctement ces permissions dans un environnement multi-utilisateur ?**
+   - Cette question est conçue pour vous aider à comprendre et à expliquer l'importance de chaque type de permission dans la sécurité et la fonctionnalité d'un système.
+
+3. **Quel est le rôle du fichier sudoers dans la gestion des permissions système ? Comment une mauvaise configuration de ce fichier peut-elle compromettre un système Linux ?**
+   - Cette question vous encourage à explorer le rôle critique du fichier sudoers dans la gestion des privilèges d'administration et les risques associés à sa mauvaise gestion.
+
+4. **Pourquoi est-il important de limiter les permissions d'exécution sur certains fichiers ou scripts ? Donnez un exemple où cette limitation pourrait prévenir une faille de sécurité.**
+   - Cette question vous permet de discuter de l'importance de la restriction des permissions d'exécution et de réfléchir à des scénarios où de telles restrictions sont essentielles à la sécurité.
+
+5. **Comment les commandes `chmod` et `chown` influencent-elles la sécurité des fichiers et dossiers sur un serveur Linux ? Quelles sont les bonnes pratiques pour leur utilisation ?**
+   - Cette question vous demande de décrire comment ces commandes affectent la sécurité des fichiers et des dossiers et de réfléchir aux meilleures pratiques pour leur utilisation efficace et sûre.
+
+6. **Examinez un scénario où un utilisateur a accidentellement obtenu des permissions excessives sur des fichiers critiques. Quelles pourraient être les conséquences et comment ce problème pourrait-il être résolu ?**
+   - Cette question vise à vous faire réfléchir aux impacts potentiels de la surattribution de permissions et aux mesures correctives possibles.
+
+7. **Qu'est-ce que le "sticky bit" et comment peut-il être utilisé pour améliorer la sécurité des répertoires partagés ?**
+   - Cette question vous encourage à explorer le concept du sticky bit, son utilité et son application dans la sécurisation des environnements où plusieurs utilisateurs accèdent aux mêmes répertoires.
+
+8. **Discutez de l'importance de la séparation des droits d'utilisateur et d'administrateur sur un système Linux. Comment cela influence-t-il la sécurité générale du système ?**
+   - Cette question vous permet de réfléchir à l'importance de la séparation des privilèges dans la prévention des abus de droits et des erreurs accidentelles.
+
