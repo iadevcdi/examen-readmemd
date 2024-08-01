@@ -1,6 +1,3 @@
-D'accord, voici le fichier `README.md` incluant le script shell pour l'installation de GLPI sur un serveur Linux :
-
-```markdown
 # Guide d'Installation de GLPI sur un Serveur Linux
 
 Ce guide fournit les instructions et un script shell pour installer GLPI sur un serveur Linux (Ubuntu ou Debian recommandé).
