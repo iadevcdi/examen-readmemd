@@ -15,6 +15,11 @@ Ce guide fournit les instructions et un script shell pour installer GLPI sur un 
 Enregistrez le script suivant dans un fichier, par exemple `install_glpi.sh` :
 
 ```bash
+nano install_glpi.sh
+```
+### 2. Copier/coller le contenu de ce script
+
+```bash
 #!/bin/bash
 
 # Mise à jour des paquets et installation des composants nécessaires
