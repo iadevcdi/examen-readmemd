@@ -1,4 +1,4 @@
-## Explications Approfondies des Démonstrations Cryptographiques
+## Rappel du cours -  Démonstrations Cryptographiques
 
 ### Démo 1 – Chiffrement de César
 
@@ -28,7 +28,7 @@ La signature numérique permet de vérifier l'authenticité et l'intégrité d'u
 
 Cette démonstration illustre une méthode d'attaque où l'attaquant possède à la fois un échantillon de texte en clair et son équivalent chiffré. L'objectif est d'exploiter cette information pour dériver la clé cryptographique utilisée ou pour obtenir plus d'informations sur l'algorithme de chiffrement. Cela démontre la nécessité de sécuriser non seulement les clés mais aussi les schémas de chiffrement contre de telles vulnérabilités.
 
-Chaque démonstration couvre un aspect différent de la cryptographie, offrant aux étudiants une vue d'ensemble des méthodes, de leur application, et de leur sécurité. Ces exemples pratiques renforcent la compréhension des principes fondamentaux de la cryptographie tout en exposant les élèves à des techniques de cryptanalyse et de sécurisation des données.
+Chaque démonstration couvre un aspect différent de la cryptographie, vous offrant une vue d'ensemble des méthodes, de leur application, et de leur sécurité. Ces exemples pratiques renforcent la compréhension des principes fondamentaux de la cryptographie tout en exposant les élèves à des techniques de cryptanalyse et de sécurisation des données.
 
 ## Exercices pour l'examen
 
